@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Default Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.main-section {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+  #navbar {
+    width: 100px;
+  }
+
+  .main-section {
+    margin-left: 120px;
+  }
+}

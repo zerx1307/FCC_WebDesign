@@ -1,0 +1,42 @@
+/* styles.css */
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #023332;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0px;
+  padding-top: 50px; 
+}
+@media (max-width: 600px) {
+  #nav-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  #header-img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
